@@ -1,7 +1,7 @@
 # swift-front-end
 
 
-//  Navigation 
+// Navigation 
 
 
 ![navigation](https://user-images.githubusercontent.com/77145529/134947474-8b219fb4-0ed2-4bf8-8e2d-b201bb2c0612.gif)
