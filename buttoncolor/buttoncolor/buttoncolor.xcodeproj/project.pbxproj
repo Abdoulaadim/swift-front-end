@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF3D40B26FD46FB00371ED3 /* buttoncolorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3D40A26FD46FB00371ED3 /* buttoncolorApp.swift */; };
+		EDF3D40D26FD46FB00371ED3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3D40C26FD46FB00371ED3 /* ContentView.swift */; };
+		EDF3D40F26FD46FF00371ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF3D40E26FD46FF00371ED3 /* Assets.xcassets */; };
+		EDF3D41226FD46FF00371ED3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF3D41126FD46FF00371ED3 /* Preview Assets.xcassets */; };
+		EDF3D41D26FD46FF00371ED3 /* buttoncolorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3D41C26FD46FF00371ED3 /* buttoncolorTests.swift */; };
+		EDF3D42826FD46FF00371ED3 /* buttoncolorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3D42726FD46FF00371ED3 /* buttoncolorUITests.swift */; };
+		EDF3D43626FD471500371ED3 /* buttoncolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3D43526FD471500371ED3 /* buttoncolor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF3D41926FD46FF00371ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF3D3FF26FD46FB00371ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF3D40626FD46FB00371ED3;
+			remoteInfo = buttoncolor;
+		};
+		EDF3D42426FD46FF00371ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF3D3FF26FD46FB00371ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF3D40626FD46FB00371ED3;
+			remoteInfo = buttoncolor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDF3D40726FD46FB00371ED3 /* buttoncolor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buttoncolor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3D40A26FD46FB00371ED3 /* buttoncolorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttoncolorApp.swift; sourceTree = "<group>"; };
+		EDF3D40C26FD46FB00371ED3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDF3D40E26FD46FF00371ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF3D41126FD46FF00371ED3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDF3D41326FD46FF00371ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF3D41826FD46FF00371ED3 /* buttoncolorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttoncolorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3D41C26FD46FF00371ED3 /* buttoncolorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttoncolorTests.swift; sourceTree = "<group>"; };
+		EDF3D41E26FD46FF00371ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF3D42326FD46FF00371ED3 /* buttoncolorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttoncolorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3D42726FD46FF00371ED3 /* buttoncolorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttoncolorUITests.swift; sourceTree = "<group>"; };
+		EDF3D42926FD46FF00371ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF3D43526FD471500371ED3 /* buttoncolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttoncolor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF3D40426FD46FB00371ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3D41526FD46FF00371ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3D42026FD46FF00371ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF3D3FE26FD46FB00371ED3 = {
+			isa = PBXGroup;
+			children = (
+				EDF3D40926FD46FB00371ED3 /* buttoncolor */,
+				EDF3D41B26FD46FF00371ED3 /* buttoncolorTests */,
+				EDF3D42626FD46FF00371ED3 /* buttoncolorUITests */,
+				EDF3D40826FD46FB00371ED3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF3D40826FD46FB00371ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3D40726FD46FB00371ED3 /* buttoncolor.app */,
+				EDF3D41826FD46FF00371ED3 /* buttoncolorTests.xctest */,
+				EDF3D42326FD46FF00371ED3 /* buttoncolorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF3D40926FD46FB00371ED3 /* buttoncolor */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3D40A26FD46FB00371ED3 /* buttoncolorApp.swift */,
+				EDF3D40C26FD46FB00371ED3 /* ContentView.swift */,
+				EDF3D43526FD471500371ED3 /* buttoncolor.swift */,
+				EDF3D40E26FD46FF00371ED3 /* Assets.xcassets */,
+				EDF3D41326FD46FF00371ED3 /* Info.plist */,
+				EDF3D41026FD46FF00371ED3 /* Preview Content */,
+			);
+			path = buttoncolor;
+			sourceTree = "<group>";
+		};
+		EDF3D41026FD46FF00371ED3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3D41126FD46FF00371ED3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDF3D41B26FD46FF00371ED3 /* buttoncolorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3D41C26FD46FF00371ED3 /* buttoncolorTests.swift */,
+				EDF3D41E26FD46FF00371ED3 /* Info.plist */,
+			);
+			path = buttoncolorTests;
+			sourceTree = "<group>";
+		};
+		EDF3D42626FD46FF00371ED3 /* buttoncolorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3D42726FD46FF00371ED3 /* buttoncolorUITests.swift */,
+				EDF3D42926FD46FF00371ED3 /* Info.plist */,
+			);
+			path = buttoncolorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF3D40626FD46FB00371ED3 /* buttoncolor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF3D42C26FD46FF00371ED3 /* Build configuration list for PBXNativeTarget "buttoncolor" */;
+			buildPhases = (
+				EDF3D40326FD46FB00371ED3 /* Sources */,
+				EDF3D40426FD46FB00371ED3 /* Frameworks */,
+				EDF3D40526FD46FB00371ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buttoncolor;
+			productName = buttoncolor;
+			productReference = EDF3D40726FD46FB00371ED3 /* buttoncolor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF3D41726FD46FF00371ED3 /* buttoncolorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF3D42F26FD46FF00371ED3 /* Build configuration list for PBXNativeTarget "buttoncolorTests" */;
+			buildPhases = (
+				EDF3D41426FD46FF00371ED3 /* Sources */,
+				EDF3D41526FD46FF00371ED3 /* Frameworks */,
+				EDF3D41626FD46FF00371ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF3D41A26FD46FF00371ED3 /* PBXTargetDependency */,
+			);
+			name = buttoncolorTests;
+			productName = buttoncolorTests;
+			productReference = EDF3D41826FD46FF00371ED3 /* buttoncolorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF3D42226FD46FF00371ED3 /* buttoncolorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF3D43226FD46FF00371ED3 /* Build configuration list for PBXNativeTarget "buttoncolorUITests" */;
+			buildPhases = (
+				EDF3D41F26FD46FF00371ED3 /* Sources */,
+				EDF3D42026FD46FF00371ED3 /* Frameworks */,
+				EDF3D42126FD46FF00371ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF3D42526FD46FF00371ED3 /* PBXTargetDependency */,
+			);
+			name = buttoncolorUITests;
+			productName = buttoncolorUITests;
+			productReference = EDF3D42326FD46FF00371ED3 /* buttoncolorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF3D3FF26FD46FB00371ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EDF3D40626FD46FB00371ED3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EDF3D41726FD46FF00371ED3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDF3D40626FD46FB00371ED3;
+					};
+					EDF3D42226FD46FF00371ED3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDF3D40626FD46FB00371ED3;
+					};
+				};
+			};
+			buildConfigurationList = EDF3D40226FD46FB00371ED3 /* Build configuration list for PBXProject "buttoncolor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF3D3FE26FD46FB00371ED3;
+			productRefGroup = EDF3D40826FD46FB00371ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF3D40626FD46FB00371ED3 /* buttoncolor */,
+				EDF3D41726FD46FF00371ED3 /* buttoncolorTests */,
+				EDF3D42226FD46FF00371ED3 /* buttoncolorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF3D40526FD46FB00371ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3D41226FD46FF00371ED3 /* Preview Assets.xcassets in Resources */,
+				EDF3D40F26FD46FF00371ED3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3D41626FD46FF00371ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3D42126FD46FF00371ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF3D40326FD46FB00371ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3D40D26FD46FB00371ED3 /* ContentView.swift in Sources */,
+				EDF3D40B26FD46FB00371ED3 /* buttoncolorApp.swift in Sources */,
+				EDF3D43626FD471500371ED3 /* buttoncolor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3D41426FD46FF00371ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3D41D26FD46FF00371ED3 /* buttoncolorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3D41F26FD46FF00371ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3D42826FD46FF00371ED3 /* buttoncolorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF3D41A26FD46FF00371ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF3D40626FD46FB00371ED3 /* buttoncolor */;
+			targetProxy = EDF3D41926FD46FF00371ED3 /* PBXContainerItemProxy */;
+		};
+		EDF3D42526FD46FF00371ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF3D40626FD46FB00371ED3 /* buttoncolor */;
+			targetProxy = EDF3D42426FD46FF00371ED3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDF3D42A26FD46FF00371ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF3D42B26FD46FF00371ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF3D42D26FD46FF00371ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"buttoncolor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = buttoncolor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabrouki.buttoncolor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF3D42E26FD46FF00371ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"buttoncolor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = buttoncolor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabrouki.buttoncolor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDF3D43026FD46FF00371ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buttoncolorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabrouki.buttoncolorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buttoncolor.app/buttoncolor";
+			};
+			name = Debug;
+		};
+		EDF3D43126FD46FF00371ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buttoncolorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabrouki.buttoncolorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buttoncolor.app/buttoncolor";
+			};
+			name = Release;
+		};
+		EDF3D43326FD46FF00371ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buttoncolorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabrouki.buttoncolorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = buttoncolor;
+			};
+			name = Debug;
+		};
+		EDF3D43426FD46FF00371ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = buttoncolorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabrouki.buttoncolorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = buttoncolor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF3D40226FD46FB00371ED3 /* Build configuration list for PBXProject "buttoncolor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3D42A26FD46FF00371ED3 /* Debug */,
+				EDF3D42B26FD46FF00371ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF3D42C26FD46FF00371ED3 /* Build configuration list for PBXNativeTarget "buttoncolor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3D42D26FD46FF00371ED3 /* Debug */,
+				EDF3D42E26FD46FF00371ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF3D42F26FD46FF00371ED3 /* Build configuration list for PBXNativeTarget "buttoncolorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3D43026FD46FF00371ED3 /* Debug */,
+				EDF3D43126FD46FF00371ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF3D43226FD46FF00371ED3 /* Build configuration list for PBXNativeTarget "buttoncolorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3D43326FD46FF00371ED3 /* Debug */,
+				EDF3D43426FD46FF00371ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF3D3FF26FD46FB00371ED3 /* Project object */;
+}
